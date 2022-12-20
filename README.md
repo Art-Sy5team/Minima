@@ -5,8 +5,6 @@
 - [Doc offcial](https://docs.minima.global/)
 - [Dashbord Node](https://incentive.minima.global/account/register?inviteCode=FICPALDD) 
 
-
-
 # Buat akun dan dapatkan Incentive ID
 - [Incentive Minima Global](https://incentive.minima.global/account/register?inviteCode=FICPALDD)
 - Buka URL di atas 
@@ -108,9 +106,56 @@ di bagian `YourServerIP` ganti dengan IP VPS anda
 
 
 
-### Command Update otomatis (jika ada update terbaru)
+## Command Berguna lainya
+
+- check docker yang berjalan
+```
+docker ps
+```
+- Check Log
+```
+docker logs minima9001
+```
+- stop node
+```
+docker stop minima9001
+```
+- restart node
+```
+- docker restart minima9001
+```
+- delete node
+```
+docker rm minima9001
+```
+- delete file node
+```
+sudo rm -r /home/minima/
+```
+- delete user minima
+```
+sudo userdel minima
+```
+- update versi node otomatis 
 ```
 docker run -d --restart unless-stopped --name watchtower -e WATCHTOWER_CLEANUP=true -e WATCHTOWER_TIMEOUT=60s -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower
+```
+
+### Command berguna di apps terminal Minima
+[![terminal.png](https://i.postimg.cc/vDRCf3Mr/terminal.png)](https://postimg.cc/kRcjdN2G)
+- check status user, UID, Password, dan versi yang digunakan
+```
+mds
+```
+```
+status
+```
+```
+incentivecash 
+```
+- check lebih detail 
+```
+help
 ```
 
 ### Art-Team INFO
