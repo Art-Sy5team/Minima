@@ -157,6 +157,10 @@ incentivecash
 ```
 help
 ```
+- backup wallet
+```
+vault
+```
 
 ### Art-Team INFO
 noted: **art team** here does not have any specific goals or intentions, they only collect data and share it with everyone.
